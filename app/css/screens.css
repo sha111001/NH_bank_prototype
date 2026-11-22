@@ -1,0 +1,10 @@
+/* 슬라이더(만기금액 계산기) */
+.rg{-webkit-appearance:none;appearance:none;display:block;width:100%;height:5px;border-radius:3px;background:#e6e8ec;outline:0;cursor:pointer}
+.rg::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;background:#3d5bf0;box-shadow:0 2px 5px rgba(40,60,200,.45);border:0}
+.rg::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:#3d5bf0;border:0}
+.rg:hover::-webkit-slider-thumb{box-shadow:0 0 0 5px rgba(0,112,255,.25)}
+/* 도넛 차트 등장 애니메이션 */
+.dnA{animation:dn .9s ease-out both}
+@keyframes dn{from{stroke-dasharray:0 var(--c)}}
+.areaFill{animation:fade .6s ease-out}
+#gName::placeholder{color:#111}
